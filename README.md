@@ -49,11 +49,12 @@ Java
         return hasCycle;
     }
 }
-Código generado por IA. Revisar y usar cuidadosamente. Más información sobre preguntas frecuentes.
+
 Este método devuelve true si el grafo tiene un ciclo y false en caso contrario.
 
 
 Java
+
     private boolean[] marked;
     private boolean[] color;
     private boolean isTwoColorable = true;
